@@ -14,11 +14,11 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(led, HIGH); // Turns voltage on High
-  delay(400);  // waits 2 seconds
+  delay(500);  // waits 2 seconds
   digitalWrite(led, LOW);
-  delay(400);
+  delay(500);
   digitalWrite(ledTwo, HIGH); // Turns voltage on High
-  delay(400);  // waits 2 seconds
+  delay(500);  // waits 2 seconds
   digitalWrite(ledTwo, LOW);
-  delay(400); 
+  delay(500); 
 }
